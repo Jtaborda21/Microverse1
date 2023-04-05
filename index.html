@@ -8,19 +8,65 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+    <header class="bg-dark fixed-top">
+      <nav class="container navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#welcome-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/your-github-username" target="_blank">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="welcome-section" class="bg-light d-flex align-items-center justify-content-center">
+      <div class="container text-center">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a sample text. Replace it with your own content.</p>
+      </div>
+    </section>
+    <section id="projects" class="py-5">
+      <div class="project-tile">
+      <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Project 1</h3>
+                <p class="card-text">Description of Project 1</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Project 2</h3>
+                <p class="card-text">Description of Project 2</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+      
+        <a href="#" id="profile-link" target="_blank">Mi perfil en LinkedIn</a>
+      </footer>
+    </section>
     <script  src="js/index.js"></script>
   </body>
 </html>
